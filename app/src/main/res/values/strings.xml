@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Mobile Quiz Appilcation</string>
+    <string name="quiz">IQ game</string>
+    <string name="play">Play</string>
+    <string name="optionC">c</string>
+    <string name="optionB">B</string>
+    <string name="optionA">A</string>
+    <string name="timerValue">00:20</string>
+    <string name="point">Points: 0</string>
+    <string name="questionsNO">Questions: 1/n</string>
 </resources>
