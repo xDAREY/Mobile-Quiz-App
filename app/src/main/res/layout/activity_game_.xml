@@ -25,8 +25,8 @@
             android:layout_height="wrap_content"
             android:text="@string/questionsNO"
             android:textColor="#FF0000"
-            android:textStyle="bold"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/gamePoints"
@@ -49,9 +49,23 @@
             android:textSize="20sp"
             tools:ignore="RelativeOverlap" />
 
+
+        <TextView
+            android:id="@+id/Questions2beAnswered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/answerBox"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="9dp"
+            android:text="@string/Notification"
+            android:textAlignment="center"
+            android:textColor="#FE0303"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
         <RadioGroup
             android:id="@+id/answerBox"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
 
@@ -75,31 +89,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/optionC"
-                android:textSize="20sp"/>
+                android:textSize="25sp"/>
 
 
 
         </RadioGroup>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answerBox"
+            android:layout_marginTop="37dp"
+            android:backgroundTint="@color/teal_200"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:text="@string/btnText"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
 
 
     </RelativeLayout>
