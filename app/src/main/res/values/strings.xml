@@ -7,7 +7,7 @@
     <string name="optionA">A</string>
     <string name="timerValue">00:20</string>
     <string name="point">Points: 0</string>
-    <string name="questionsNO">Questions:</string>
+    <string name="questionsNO">Question:</string>
     <string name="Notification">Which car attracts people the most ?</string>
     <string name="btnText">NEXT</string>
 </resources>

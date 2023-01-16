@@ -23,6 +23,8 @@
             android:id="@+id/questionNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:paddingStart="5dp"
             android:text="@string/questionsNO"
             android:textColor="#FF0000"
             android:textSize="25sp"
@@ -32,19 +34,21 @@
             android:id="@+id/gamePoints"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/point"
             android:layout_below="@id/questionNo"
-            android:textSize="25sp"
             android:layout_marginTop="10dp"
-            android:textColor="@color/purple_700"/>
+            android:paddingStart="5dp"
+            android:text="@string/point"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/gameTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/timerValue"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="200dp"
+            android:paddingEnd="5dp"
+            android:text="@string/timerValue"
             android:textColor="@color/purple_700"
             android:textSize="20sp"
             tools:ignore="RelativeOverlap" />
@@ -67,7 +71,8 @@
             android:id="@+id/answerBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true">
+            android:layout_centerInParent="true"
+            android:paddingStart="5dp">
 
 
             <RadioButton
@@ -75,22 +80,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/optionA"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <RadioButton
                 android:id="@+id/answerB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/optionB"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <RadioButton
                 android:id="@+id/answerC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/optionC"
-                android:textSize="25sp"/>
-
+                android:textSize="20sp" />
 
 
         </RadioGroup>
@@ -100,14 +104,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/answerBox"
+            android:layout_centerInParent="true"
             android:layout_marginTop="37dp"
             android:backgroundTint="@color/teal_200"
             android:fontFamily="serif"
-            android:layout_centerInParent="true"
             android:text="@string/btnText"
             android:textColor="@color/black"
             android:textSize="19sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
 
     </RelativeLayout>
