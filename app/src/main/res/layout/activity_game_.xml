@@ -15,6 +15,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#31afda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,23 +24,26 @@
             android:id="@+id/questionNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
             android:text="@string/questionsNO"
-            android:textColor="#FF0000"
+            android:fontFamily="@font/chocolate"
+            android:textColor="#050505"
             android:textSize="25sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/gamePoints"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="155dp"
+            android:layout_height="45dp"
             android:layout_below="@id/questionNo"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/chocolate"
             android:paddingStart="5dp"
             android:text="@string/point"
             android:textColor="@color/purple_700"
-            android:textSize="25sp" />
+            android:textStyle="bold"
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/gameTimer"

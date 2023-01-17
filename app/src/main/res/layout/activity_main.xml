@@ -15,21 +15,21 @@
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@color/teal_200"
+        android:background="#ff7477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:padding="16dp">
 
         <TextView
             android:id="@+id/AppName"
-            android:layout_width="wrap_content"
+            android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
-            android:fontFamily="serif"
+            android:fontFamily="@font/chocolate"
             android:text="@string/quiz"
-            android:textColor="#1A237E"
-            android:textSize="60sp"
+            android:textColor="#4a6c6f"
+            android:textSize="70sp"
             android:textStyle="bold" />
 
         <Button
@@ -37,12 +37,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:backgroundTint="#846075"
+            android:fontFamily="@font/chocolate"
+            android:padding="10dp"
             android:text="@string/play"
-            android:textStyle="bold"
-            android:textSize="30sp"
             android:textColor="#FFFFFF"
-            android:fontFamily="cursive"
-            android:backgroundTint="#AA0F29"/>
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
 
 

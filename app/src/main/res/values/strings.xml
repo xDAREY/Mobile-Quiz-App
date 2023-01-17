@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mobile Quiz Application</string>
     <string name="quiz">IQ game</string>
-    <string name="play">Play</string>
+    <string name="play">PLAY</string>
     <string name="optionC">c</string>
     <string name="optionB">B</string>
     <string name="optionA">A</string>
