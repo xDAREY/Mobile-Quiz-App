@@ -81,7 +81,7 @@ public class GameActivity extends AppCompatActivity {
                 int answerNo = answerBox.indexOfChild(rbtPicked) + 1;
                 if(answerNo == onGoingQuestion.getRightAnswerCounter()){
                     Point++;
-                    QuizPoints.setText("Point: "+Point);
+                    QuizPoints.setText("Point: "+ Point);
                 }
                 optRbt1.setTextColor(Color.YELLOW);
                 optRbt2.setTextColor(Color.YELLOW);
@@ -154,10 +154,10 @@ public class GameActivity extends AppCompatActivity {
 
     private void inputQuestions(){
         questionsList.add(new QuestionsContainer("Who sang Finesse ?", "Pheelz", "Doja Cat", "MeekMill", 1));
-        questionsList.add(new QuestionsContainer("Who sang Finesse ?", "Pheelz", "Doja Cat", "MeekMill", 1));
-        questionsList.add(new QuestionsContainer("Who sang Finesse ?", "Pheelz", "Doja Cat", "MeekMill", 1));
-        questionsList.add(new QuestionsContainer("Who sang Finesse ?", "Pheelz", "Doja Cat", "MeekMill", 1));
-        questionsList.add(new QuestionsContainer("Who sang Finesse ?", "Pheelz", "Doja Cat", "MeekMill", 1));
+        questionsList.add(new QuestionsContainer("Which country won the fifa 2022 World Cup ?", "Argentina", "Portugal", "Brazil", 1));
+        questionsList.add(new QuestionsContainer("What year was the programming language python created ?", "1994", "1996", "1991", 3));
+        questionsList.add(new QuestionsContainer("When did Nigeria gain independence ?", "1974", "1960", "1961", 2));
+        questionsList.add(new QuestionsContainer("What is the tallest building ?", "Tokyo Skytree", "Lotte world tower", "Burj khalifa", 3));
     }
 
 }
