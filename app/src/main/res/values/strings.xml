@@ -5,7 +5,7 @@
     <string name="optionC">c</string>
     <string name="optionB">B</string>
     <string name="optionA">A</string>
-    <string name="timerValue">00:20</string>
+    <string name="timerValue">00:00</string>
     <string name="point">Points: 0</string>
     <string name="questionsNO">Question:</string>
     <string name="decoyMsg">!</string>

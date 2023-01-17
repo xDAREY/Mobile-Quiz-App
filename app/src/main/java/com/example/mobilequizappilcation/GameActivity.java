@@ -13,6 +13,8 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -140,7 +142,10 @@ public class GameActivity extends AppCompatActivity {
         cdtimer = new CountDownTimer(20000,1000) {
             @Override
             public void onTick(long millisUntilFinished) {
-                QuizTimer.setText("00:" +1/1000);
+                NumberFormat f = new DecimalFormat("00");
+                long min =(millisUntilFinished/60000)%60;
+                long sec =(millisUntilFinished/1000)%60;
+                QuizTimer.setText(f.format(min)+":"+f.format(sec));
             }
 
             @Override

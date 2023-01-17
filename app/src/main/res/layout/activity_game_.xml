@@ -48,15 +48,16 @@
 
         <TextView
             android:id="@+id/gameTimer"
-            android:layout_width="128dp"
-            android:layout_height="59dp"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="158dp"
             android:layout_marginEnd="12dp"
-            android:paddingEnd="20dp"
+            android:fontFamily="@font/chocolate"
             android:text="@string/timerValue"
             android:textColor="#ff007f"
-            android:textSize="30sp"
+            android:textSize="40sp"
+            android:textStyle="bold"
             tools:ignore="RelativeOverlap" />
 
         <TextView
