@@ -22,41 +22,42 @@
 
         <TextView
             android:id="@+id/questionNo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="192dp"
+            android:layout_height="48dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
-            android:text="@string/questionsNO"
+            android:layout_marginTop="90dp"
             android:fontFamily="@font/chocolate"
+            android:text="@string/questionsNO"
             android:textColor="#050505"
-            android:textSize="25sp"
+            android:textSize="35sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/gamePoints"
-            android:layout_width="155dp"
+            android:layout_width="130dp"
             android:layout_height="45dp"
             android:layout_below="@id/questionNo"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="18dp"
             android:fontFamily="@font/chocolate"
             android:paddingStart="5dp"
             android:text="@string/point"
-            android:textColor="@color/purple_700"
-            android:textStyle="bold"
-            android:textSize="40sp" />
+            android:textColor="#ff007f"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
 
         <TextView
             android:id="@+id/gameTimer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="59dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="200dp"
-            android:paddingEnd="5dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="12dp"
+            android:paddingEnd="20dp"
             android:text="@string/timerValue"
-            android:textColor="@color/purple_700"
-            android:textSize="20sp"
+            android:textColor="#ff007f"
+            android:textSize="30sp"
             tools:ignore="RelativeOverlap" />
-
 
         <TextView
             android:id="@+id/Questions2beAnswered"
@@ -65,18 +66,19 @@
             android:layout_above="@id/answerBox"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="9dp"
+            android:fontFamily="@font/chocolate"
             android:text="@string/decoyMsg"
             android:textAlignment="center"
-            android:textColor="#FE0303"
-            android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textColor="#da2c38"
+            android:textSize="29sp"
+            android:textStyle="bold"/>
 
         <RadioGroup
             android:id="@+id/answerBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:paddingStart="5dp">
+            android:paddingEnd="10dp">
 
 
             <RadioButton
@@ -84,6 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/optionA"
+                android:textColor="#23022E"
                 android:textSize="20sp" />
 
             <RadioButton
@@ -91,6 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/optionB"
+                android:textColor="#23022E"
                 android:textSize="20sp" />
 
             <RadioButton
@@ -98,6 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/optionC"
+                android:textColor="#23022E"
                 android:textSize="20sp" />
 
 
@@ -110,10 +115,10 @@
             android:layout_below="@+id/answerBox"
             android:layout_centerInParent="true"
             android:layout_marginTop="37dp"
-            android:backgroundTint="@color/teal_200"
+            android:backgroundTint="#f46036"
             android:fontFamily="serif"
             android:text="@string/btnText"
-            android:textColor="@color/black"
+            android:textColor="#c5d86d"
             android:textSize="19sp"
             android:textStyle="bold" />
 

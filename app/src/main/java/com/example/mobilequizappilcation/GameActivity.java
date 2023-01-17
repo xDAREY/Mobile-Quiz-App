@@ -83,9 +83,9 @@ public class GameActivity extends AppCompatActivity {
                     Point++;
                     QuizPoints.setText("Point: "+ Point);
                 }
-                optRbt1.setTextColor(Color.YELLOW);
-                optRbt2.setTextColor(Color.YELLOW);
-                optRbt3.setTextColor(Color.YELLOW);
+                optRbt1.setTextColor(Color.RED);
+                optRbt2.setTextColor(Color.RED);
+                optRbt3.setTextColor(Color.RED);
 
                 switch (onGoingQuestion.getRightAnswerCounter()){
                     case 1:
